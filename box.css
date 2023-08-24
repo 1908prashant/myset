@@ -1,0 +1,214 @@
+
+body
+{
+   text-align: center;
+}
+#container{
+   height: 100px;
+   width: 100px;
+   border: 5px solid rgb(255, 94, 0);
+   position: relative;
+   left: -300px;
+   display: inline-block;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: black;
+  animation-name: myContainer;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-size: 20px;
+  color: red;
+}
+
+@keyframes myContainer{
+  from{
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    background-color:black;
+  
+    font-size: 20px;
+  color: red;
+  background-image: url("nicole-wolf-CZ9AjMGKIFI-unsplash.jpg");
+  background-size: cover;
+  }
+  to{
+    height: 250px;
+   width: 250px;
+background-color:white;
+ 
+   left: 100px;
+   background-image: url("mojahid-mottakin-P3oBttW6Wt4-unsplash.jpg");
+   background-size: cover;
+   
+  }
+  
+}
+
+
+
+
+
+ .boxx{
+    height: 50px;
+    width: 50px;
+    border: 5px solid white;
+   background-color: red;
+   
+   animation-name: myBox;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+   position: relative;
+   font-size: 20px;
+   color: red;
+ }
+@keyframes myBox{
+  from{
+    height: 50px;
+    width: 50px;
+    border: 5px solid white;
+    background-color:red;
+    left: 10px;
+    
+    background-image: url("minh-pham-HI6gy-p-WBI-unsplash.jpg");
+   background-size: cover;
+
+  }
+  to{
+    height: 175px;
+    width: 175px;
+   background-color: red;
+   border: 5px solid rgb(0, 17, 255);
+   background-image: url("alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+   background-size: cover;
+   left: 200px;
+   
+  }
+  
+}
+
+
+
+
+
+
+#container1{
+  height: 100px;
+  width: 100px;
+  border: 5px solid blue;
+  position: relative;
+  left: 100px;
+  top:100px;
+  display: inline-block;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+ animation-name: myContainer1;
+ animation-duration: 4s;
+ animation-timing-function: ease-in;
+ animation-delay: 2s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ font-size: 20px;
+  color: red;
+}
+
+@keyframes myContainer1{
+ from{
+  
+   height: 100px;
+   width: 100px;
+   border: 5px solid blue;
+   background-color:black;
+   
+   left:10px;
+   font-size: 20px;
+   color: red;
+   background-image: url("desola-lanre-ologun-kwzWjTnDPLk-unsplash (1).jpg");
+  background-size: cover;
+ }
+ to{
+   height: 250px;
+  width: 250px;
+background-color:orange;
+border: 5px solid black;
+
+  left: 100px;
+  background-image: url("lum3n--RBuQ2PK_L8-unsplash.jpg");
+  background-size: cover;
+  font-size: 0px;
+ }
+ 
+}
+
+
+
+
+
+.boxx1{
+  
+   height: 50px;
+   width: 50px;
+   border: 5px solid green;
+  background-color: aqua;
+  animation-name: myBox1;
+ animation-duration: 4s;
+ animation-timing-function: ease-in;
+ animation-delay: 2s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+  position: relative;
+  font-size: 20px;
+  color: red;
+}
+@keyframes myBox1{
+ from{
+   height: 50px;
+   width: 50px;
+   border: 5px solid green;
+   background-color:aqua;
+   left: 0px;
+   background-image: url("nicole-wolf-CZ9AjMGKIFI-unsplash.jpg");
+   background-size: cover;
+ }
+ to{
+   height: 175px;
+   width: 175px;
+  background-color: red;
+  border: 5px solid white;
+  background-image: url("andrea-de-santis-zwd435-ewb4-unsplash.jpg");
+  background-size: cover;
+  left: 200px;
+  
+ }
+ 
+}
+
+
+#load{
+  
+  height: 200px;
+  width: 200px;
+  border:20px rgb(10, 10, 3) solid;
+  border-top:20px rgb(245, 239, 239) solid ;
+  border-radius: 0%;
+  animation: loader 0.9s ease-in 0.00s infinite normal;
+}
+
+
+@keyframes loader {
+  from{
+    transform: rotate(0deg);
+   
+  }
+  to{
+    transform: rotate(360deg); 
+   
+  }
+}
